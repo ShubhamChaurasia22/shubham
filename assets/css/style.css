@@ -310,6 +310,8 @@ main {
 
 .avatar-box img {
   border-radius: 20px;
+  height: 6.25rem;
+  object-fit: fill;
 }
 
 .info-content .name {
@@ -1346,7 +1348,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; border-radius: 30px; }
+  .avatar-box img { width: 120px; border-radius: 30px; height: 9rem; }
 
   .info-content .name { margin-bottom: 15px; }
 
